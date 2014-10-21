@@ -1,0 +1,5 @@
+<ul>
+	<% _.each(results, function(result){ %>
+   		<li class='result'><%= result.get("Title") %>:<%= result.get("Year") %></li>
+  	<% }); %>
+</ul>

@@ -1,0 +1,5 @@
+<div class="resultsGrid">
+	<% _.each(results, function(result){ %>
+   		<span class='result'><%= result.get("Title") %>:<%= result.get("Year") %></span>
+  	<% }); %>
+</div>
