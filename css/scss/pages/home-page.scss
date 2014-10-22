@@ -6,12 +6,24 @@
 #searchFormHolder{
   display:block;
 }
-form#movieSearchForm {
-  float: left;
-  left: 37%;
-  position: relative;
-  width: 50%;
-  margin-top: 20px;
+@media(min-width: 700px){
+  form#movieSearchForm {
+    float: left;
+    left: 37%;
+    position: relative;
+    width: 50%;
+    margin-top: 20px;
+  }
+}
+@media(max-width: 699px){
+  
+  form#movieSearchForm {
+    float: left;
+    left: 2%;
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+  }
 }
 .main {
   width: 100%;

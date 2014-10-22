@@ -121,7 +121,7 @@ body {
   border-top-width: 0px;
   box-sizing: border-box;
   color: white;
-  cursor: pointer;
+  cursor: default;
   display: inline-block;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 16px;
@@ -155,19 +155,26 @@ body {
 #searchFormHolder {
   display: block; }
 
-form#movieSearchForm {
-  float: left;
-  left: 37%;
-  position: relative;
-  width: 50%;
-  margin-top: 20px; }
-
+@media (min-width: 700px) {
+  form#movieSearchForm {
+    float: left;
+    left: 37%;
+    position: relative;
+    width: 50%;
+    margin-top: 20px; } }
+@media (max-width: 699px) {
+  form#movieSearchForm {
+    float: left;
+    left: 2%;
+    position: relative;
+    width: 100%;
+    margin-top: 20px; } }
 .main {
   width: 100%;
   display: block;
   float: left;
-  padding-top: 20px; 
-  padding-bottom: 50px;}
+  padding-top: 20px;
+  padding-bottom: 50px; }
 
 .movieTitle {
   color: #085eb9; }
