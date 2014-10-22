@@ -90,7 +90,8 @@ body {
   padding-bottom: 10px;
   float: left;
   margin-right: 0px !important;
-  width: 280px !important;
+  width: 50%;
+  max-width: 280px;
   opacity: 0.95;
   filter: alpha(opacity=95);
   z-index: 1;
