@@ -25,3 +25,15 @@ body{
     }
   }
 }
+
+@mixin mobileCenterLeftAlign(){
+  .container{
+    left:19%;
+    width:90%;
+    position:absolute;
+    .centered-container{
+      left:5%;
+      position:absolute;
+    }
+  }
+}

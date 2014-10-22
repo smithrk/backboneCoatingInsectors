@@ -1,7 +1,12 @@
 #header{
   height:100px;
   background-color:$offWhite;
-  @include centerLeftAlign();
+  @media(min-width:700px){
+    @include centerLeftAlign();
+  }
+  @media(max-width:700px){
+    @include mobileCenterLeftAlign();
+  }
   .container{
     line-height: 0em;
     padding-top: 20px;
@@ -24,7 +29,12 @@
   position: fixed;
   bottom: 0px;
   width: 100%;
-  @include centerLeftAlign();
+  @media(min-width:700px){
+    @include centerLeftAlign();
+  }
+  @media(max-width:700px){
+    @include mobileCenterLeftAlign();
+  }
   .navigation{
     font-weight:bold;
     font-size:1em;
