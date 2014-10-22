@@ -1,3 +1,10 @@
+/**
+ * 
+ * Author: Kody Smith <kodysmith2010@gmail.com>
+ * Filename: app.js
+ * Require.js allows us to configure shortcut alias
+ * 
+ */
 define([
   'jquery', 
   'underscore', 

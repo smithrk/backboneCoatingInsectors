@@ -1,5 +1,29 @@
-<ul>
+<ul class="resultsList">
 	<% _.each(results, function(result){ %>
-   		<li class='result'><%= result.get("Title") %>:<%= result.get("Year") %></li>
+   		<li class="list-item">
+   		    <a target="_blank" href="//www.amazon.com/s/ref=nb_sb_noss_1?url=search-alias%3Dmovies-tv&field-keywords=<%= result.get('title') %>">
+                <span class="movieTitle">
+                   <%= result.get("title") %> (<span class="movieYear"><%= result.get("year") %></span>) -- 
+                   <span class="movieRating">
+                    <%= result.get("mpaa_rating") %> 
+                   </span> --
+                </span>
+                
+                
+                <span class="movieViewerRating">
+                   <% if(result.get("ratings").critics_score !=undefined || result.get("ratings").critics_score !=""){ %> 
+                       <span class="infoTitle">Critics Score: </span>
+                       <%= result.get("ratings").critics_score %> 
+                   <% } %>
+                   <span class="infoTitle">Audience Score: </span>
+                   <%= result.get("ratings").audience_score %> 
+                </span>
+                <% if(result.get("synopsis") !=""){ %>
+                <span class="synopsis">
+                   <%= result.get("synopsis").substring(0, 255) + "..." %> 
+                </span>
+                <% } %>
+            </a>
+	    </li>
   	<% }); %>
 </ul>
