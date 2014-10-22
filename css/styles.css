@@ -166,7 +166,8 @@ form#movieSearchForm {
   width: 100%;
   display: block;
   float: left;
-  padding-top: 20px; }
+  padding-top: 20px; 
+  padding-bottom: 50px;}
 
 .movieTitle {
   color: #085eb9; }

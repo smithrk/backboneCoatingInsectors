@@ -24,7 +24,7 @@ define([
             var searchString = $('form input[name^=searchString]').val();
             window.location.hash = 'movies/'+viewStyle + '/' + encodeURIComponent(searchString);
         });
-      $('#movieSearchForm select[name^=viewStyle]').change(function(){
+      $('#movieSearchForm select').change(function(){
             var viewStyle = $('form select[name^=viewStyle]').val();
             var searchString = $('form input[name^=searchString]').val();
             window.location.hash = 'movies/'+viewStyle + '/' + encodeURIComponent(searchString);
