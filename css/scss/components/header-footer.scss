@@ -1,0 +1,34 @@
+#header{
+  height:100px;
+  background-color:$offWhite;
+  @include centerLeftAlign();
+  .container{
+    line-height: 0em;
+    padding-top: 20px;
+  }
+  h1{
+    font-weight:bolder;
+    font-size:2em;
+    color:$bestBuyBlue;
+  }
+  .subtitle{
+    color:cornflowerblue;
+    font-style:italic;
+  }
+  
+}
+
+#footer{
+  height:20px;
+  background-color:$offWhite;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  @include centerLeftAlign();
+  .navigation{
+    font-weight:bold;
+    font-size:1em;
+    color:$bestBuyBlue;
+  }
+  
+}

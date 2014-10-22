@@ -1,0 +1,41 @@
+{"total":308,
+"movies":[{"id":"770678952",
+"title":"James",
+"year":2005,
+"mpaa_rating":"Unrated",
+"runtime":"",
+"release_dates":{
+    "theater":"2005-09-16",
+    "dvd":"2005-12-20"
+    },
+"ratings":{
+    "critics_score":-1,
+    "audience_rating":"Spilled",
+    "audience_score":50
+    },
+"synopsis":"",
+"posters":{
+    "thumbnail":"http://d3biamo577v4eu.cloudfront.net/static/images/redesign/poster_default_thumb.gif",
+    "profile":"http://d3biamo577v4eu.cloudfront.net/static/images/redesign/poster_default_thumb.gif",
+    "detailed":"http://d3biamo577v4eu.cloudfront.net/static/images/redesign/poster_default_thumb.gif",
+    "original":"http://d3biamo577v4eu.cloudfront.net/static/images/redesign/poster_default_thumb.gif"
+    },
+"abridged_cast":[{"name":"Mohit Ahlawat",
+    "id":"326396587"},
+    {"name":"Nisha Kothari",
+    "id":"326396589"},
+    {"name":"Riya Sen",
+    "id":"394295070"},
+    {"name":"Zakir Hussain",
+    "id":"553908824"},
+    {"name":"Priyanka Kothari",
+    "id":"771413528"}],
+"alternate_ids":{"imdb":"0454481"},
+"links":{"self":"http://api.rottentomatoes.com/api/public/v1.0/movies/770678952.json",
+"alternate":"http://www.rottentomatoes.com/m/james/",
+"cast":"http://api.rottentomatoes.com/api/public/v1.0/movies/770678952/cast.json",
+"reviews":"http://api.rottentomatoes.com/api/public/v1.0/movies/770678952/reviews.json",
+"similar":"http://api.rottentomatoes.com/api/public/v1.0/movies/770678952/similar.json"}}],
+"links":{"self":"http://api.rottentomatoes.com/api/public/v1.0/movies.json?q=james&page_limit=1&page=1",
+"next":"http://api.rottentomatoes.com/api/public/v1.0/movies.json?q=james&page_limit=1&page=2"},
+"link_template":"http://api.rottentomatoes.com/api/public/v1.0/movies.json?q={search-term}&page_limit={results-per-page}&page={page-number}"}
