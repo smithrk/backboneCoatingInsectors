@@ -7,23 +7,6 @@
 .movieRating {
   font-weight: bold;
 }
-.movieImage{
-  
-}
-@media(max-width:700px){
-  .resultsGrid.grid .grid-item {
-  float: left;
-  display: block;
-  min-width: 250px;
-  margin: 14px auto 14px 6px;
-  padding: 10px;
-  min-height: 170px;
-  text-align: left;
-  width: 92%;
-  background-color: $offWhite;
-  color: $bestBuyBlue;
-  }
-}
 
 .resultsGrid.grid .grid-item {
   @media(min-width:700px){
@@ -35,6 +18,18 @@
   min-height: 170px;
   text-align: left;
   width: 29%;
+  background-color: $offWhite;
+  color: $bestBuyBlue;
+  }
+  @media(max-width:700px){
+  float: left;
+  display: block;
+  min-width: 250px;
+  margin: 14px auto 14px 6px;
+  padding: 10px;
+  min-height: 170px;
+  text-align: left;
+  width: 92%;
   background-color: $offWhite;
   color: $bestBuyBlue;
   }
