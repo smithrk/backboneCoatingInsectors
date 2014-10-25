@@ -18,7 +18,7 @@ This project allows users to search for movie titles, display ratings, movie inf
 
 
 
-** The Request **
+**The Request**
 
 Take Home Test for Kody:
 
