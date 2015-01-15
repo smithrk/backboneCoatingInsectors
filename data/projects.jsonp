@@ -1,0 +1,108 @@
+{
+"movies":[
+{
+"title":"GitHub",
+"year":2014,
+"mpaa_rating":"Unrated",
+"runtime":"",
+"release_dates":{
+    "written":"2014-11-20"
+    },
+"ratings":{
+    "critics_score":-1,
+    "audience_rating":"Spilled",
+    "audience_score":50
+    },
+"synopsis":"",
+"posters":{
+    "thumbnail":"http://d3biamo577v4eu.cloudfront.net/static/images/redesign/poster_default_thumb.gif"
+    },
+"links":{
+"github":"http://github.com/kodysmith/searchProject",
+"url":"https://www.github.com/kodysmith/"
+}},
+{
+"title":"LinkedIn",
+"year":2014,
+"mpaa_rating":"Unrated",
+"runtime":"",
+"release_dates":{
+    "written":"2014-11-20"
+    },
+"ratings":{
+    "critics_score":-1,
+    "audience_rating":"Spilled",
+    "audience_score":50
+    },
+"synopsis":"",
+"posters":{
+    "thumbnail":"http://d3biamo577v4eu.cloudfront.net/static/images/redesign/poster_default_thumb.gif"
+    },
+"links":{
+"github":"http://github.com/kodysmith/searchProject",
+"url":"https://www.linkedin.com/profile/view?id=222171209&trk=nav_responsive_tab_profile"
+}},
+{
+"title":"Matrix Animation",
+"year":2014,
+"mpaa_rating":"Unrated",
+"runtime":"",
+"release_dates":{
+    "written":"2014-11-20"
+    },
+"ratings":{
+    "critics_score":-1,
+    "audience_rating":"Spilled",
+    "audience_score":50
+    },
+"synopsis":"",
+"posters":{
+    "thumbnail":"http://d3biamo577v4eu.cloudfront.net/static/images/redesign/poster_default_thumb.gif"
+    },
+"links":{
+"github":"http://github.com/kodysmith/matrixDropAnimation",
+"url":"/app-matrixAnimation/"
+}},
+{
+"title":"Lydia Site",
+"year":2014,
+"mpaa_rating":"Unrated",
+"runtime":"",
+"release_dates":{
+    "written":"2014-11-20"
+    },
+"ratings":{
+    "critics_score":-1,
+    "audience_rating":"Spilled",
+    "audience_score":50
+    },
+"synopsis":"",
+"posters":{
+    "thumbnail":"http://d3biamo577v4eu.cloudfront.net/static/images/redesign/poster_default_thumb.gif"
+    },
+"links":{
+"github":"http://github.com/kodysmith/lydia",
+"url":"/app-lydia/www/"
+}},
+{
+"title":"Movie Search",
+"year":2014,
+"mpaa_rating":"Unrated",
+"runtime":"",
+"release_dates":{
+    "written":"2014-11-20"
+    },
+"ratings":{
+    "critics_score":-1,
+    "audience_rating":"Spilled",
+    "audience_score":50
+    },
+"synopsis":"",
+"posters":{
+    "thumbnail":"http://d3biamo577v4eu.cloudfront.net/static/images/redesign/poster_default_thumb.gif"
+    },
+"links":{
+"github":"http://github.com/kodysmith/searchProject",
+"url":"/app-movieSearch/"
+}}
+]}
