@@ -15,10 +15,10 @@ define([
   'views/home/HeaderView',
   'views/home/FooterView',
   'views/home/HomeView',
-  'views/search_results/MoviesListView',
-  'views/search_results/MoviesGridView',
-  'views/search_forms/MovieSearchFormView',
-], function($, _, Backbone, HeaderView, FooterView, HomeView, MoviesListView, MoviesGridView, MovieSearchFormView) {
+  'views/search_results/ProjectListView',
+  'views/search_results/ProjectGridView',
+  'views/search_forms/ProjectSearchFormView',
+], function($, _, Backbone, HeaderView, FooterView, HomeView, ProjectListView, ProjectGridView, ProjectSearchFormView) {
   
   var AppRouter = Backbone.Router.extend({
     routes: {
@@ -26,8 +26,8 @@ define([
       "": "index",  // index with no slash
       "/": "index", // index with one trailing slash
       "/#":"index", // index with a hash 
-      "movies/list/:searchString":"moviesList",  // display movies search list view using "searchString"
-      "movies/grid/:searchString":"moviesGrid",  // display movies search grid view using "searchString"
+      "projects/list/:searchString":"projectsList",  // display movies search list view using "searchString"
+      "projects/grid/:searchString":"projectsGrid",  // display movies search grid view using "searchString"
       "*actions": "defaultRoute" // Backbone will try match the route above first
     },
     // index function displays the default home screen 
@@ -36,14 +36,14 @@ define([
       homeView.render();
     },
     // moviesList function displays and processes search results based on URL "searchString"
-    moviesList: function(searchString){
-      var moviesListView = new MoviesListView();
+    projectsList: function(searchString){
+      var moviesListView = new ProjectListView();
       moviesListView.render(searchString);
     },
     // moviesGrid function displays and processes search results based on URL "searchString"
-    moviesGrid: function(searchString){
-      var moviesGridView = new MoviesGridView();
-      moviesGridView.render(searchString);
+    projectsGrid: function(searchString){
+      var projectsGridView = new ProjectGridView();
+      projectsGridView.render(searchString);
     }
     
   });
@@ -58,8 +58,8 @@ define([
     headerView.render();
     
     // the purpose of this app is to Search for movies, so this should display always
-    var movieSearchFormView = new MovieSearchFormView();
-    movieSearchFormView.render();
+    var projectSearchFormView = new ProjectSearchFormView();
+    projectSearchFormView.render();
 
     // display the footer at all times
     var footerView = new FooterView();    

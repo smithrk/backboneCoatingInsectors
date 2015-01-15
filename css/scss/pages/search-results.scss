@@ -1,10 +1,10 @@
-.movieTitle{
+.resultObjectTitle{
   color:$bestBuyBlue;
 }
-.movieYear{
+.resultObjectYear{
   color:cornflowerblue;
 }
-.movieRating {
+.resultObjectRating {
   font-weight: bold;
 }
 
@@ -33,16 +33,16 @@
   background-color: $offWhite;
   color: $bestBuyBlue;
   }
-  .movieTitle{
+  .resultObjectTitle{
     display:block;
     font-size:125%;
     font-weight:bold;
   }
-  .movieYear{
+  .resultObjectYear{
     display:block;
     font-size:100%;
   }
-  .movieImage {
+  .resultObjectImage {
     display: inline-block;
     float: left;
     margin-right: 15px;
@@ -50,11 +50,11 @@
       height: 150px;
     }
   }
-  .movieRating {
+  .resultObjectRating {
     display:block;
     color: darkred;
   }
-  .movieViewerRating {
+  .resultObjectViewerRating {
     display: block;
     width: 280px;
   }
@@ -81,15 +81,15 @@
     width: 90%;
     color: $bestBuyBlue;
     
-    .movieTitle{
+    .resultObjectTitle{
       font-size:125%;
       font-weight:bold;
     }
-    .movieYear{
+    .resultObjectYear{
       font-size:75%;
       color:cornflowerblue;
     }
-    .movieImage {
+    .resultObjectImage {
       display: inline-block;
       float: left;
       margin-right: 15px;
@@ -97,7 +97,7 @@
         height: 80px;
       }
     }
-    .movieRating {
+    .resultObjectRating {
       font-size:75%;
     }
     .synopsis {

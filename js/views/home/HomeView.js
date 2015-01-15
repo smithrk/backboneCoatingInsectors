@@ -7,11 +7,11 @@ define([
   'jquery',
   'underscore',
   'backbone',
-  'views/search_forms/MovieSearchFormView',
+  'views/search_results/ProjectGridView',
   'text!templates/home/homeTemplate.html',
   'text!templates/search_forms/movieSearchFormTemplate.html'
 
-], function($, _, Backbone, MovieSearchFormView, homeTemplate, movieSearchFormTemplate){
+], function($, _, Backbone, ProjectGridView, homeTemplate, movieSearchFormTemplate){
 
   var HomeView = Backbone.View.extend({
     el: $("#page"),
@@ -22,8 +22,8 @@ define([
         // display the search form on the home screen
         // demonstrating how you can pass element selector or other values to models to manipulate their
         // result destination 
-        var movieSearchFormView = new MovieSearchFormView({el:$('#searchFormHolder')});
-        movieSearchFormView.render();
+        var projectGridView = new ProjectGridView({el:$('#searchFormHolder')});
+        projectGridView.render();
     }
   });
 

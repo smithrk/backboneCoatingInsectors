@@ -175,14 +175,14 @@ body {
   display: block; }
 
 @media (min-width: 700px) {
-  form#movieSearchForm {
+  form#resultObjectSearchForm {
     float: left;
     left: 37%;
     position: relative;
     width: 50%;
     margin-top: 20px; } }
 @media (max-width: 699px) {
-  form#movieSearchForm {
+  form#resultObjectSearchForm {
     float: left;
     left: 2%;
     position: relative;
@@ -195,13 +195,13 @@ body {
   padding-top: 20px;
   padding-bottom: 50px; }
 
-.movieTitle {
+.resultObjectTitle {
   color: #085eb9; }
 
-.movieYear {
+.resultObjectYear {
   color: cornflowerblue; }
 
-.movieRating {
+.resultObjectRating {
   font-weight: bold; }
 
 @media (max-width: 700px) {
@@ -228,23 +228,23 @@ body {
     width: 29%;
     background-color: #e6e6eb;
     color: #085eb9; } }
-.resultsGrid.grid .grid-item .movieTitle {
+.resultsGrid.grid .grid-item .resultObjectTitle {
   display: block;
   font-size: 125%;
   font-weight: bold; }
-.resultsGrid.grid .grid-item .movieYear {
+.resultsGrid.grid .grid-item .resultObjectYear {
   display: block;
   font-size: 100%; }
-.resultsGrid.grid .grid-item .movieImage {
+.resultsGrid.grid .grid-item .resultObjectImage {
   display: inline-block;
   float: left;
   margin-right: 15px; }
-  .resultsGrid.grid .grid-item .movieImage img {
+  .resultsGrid.grid .grid-item .resultObjectImage img {
     height: 150px; }
-.resultsGrid.grid .grid-item .movieRating {
+.resultsGrid.grid .grid-item .resultObjectRating {
   display: block;
   color: darkred; }
-.resultsGrid.grid .grid-item .movieViewerRating {
+.resultsGrid.grid .grid-item .resultObjectViewerRating {
   display: block;
   width: 280px; }
 .resultsGrid.grid .grid-item .synopsis {
@@ -264,19 +264,19 @@ body {
   text-align: left;
   width: 90%;
   color: #085eb9; }
-  .resultsList li.list-item .movieTitle {
+  .resultsList li.list-item .resultObjectTitle {
     font-size: 125%;
     font-weight: bold; }
-  .resultsList li.list-item .movieYear {
+  .resultsList li.list-item .resultObjectYear {
     font-size: 75%;
     color: cornflowerblue; }
-  .resultsList li.list-item .movieImage {
+  .resultsList li.list-item .resultObjectImage {
     display: inline-block;
     float: left;
     margin-right: 15px; }
-    .resultsList li.list-item .movieImage img {
+    .resultsList li.list-item .resultObjectImage img {
       height: 80px; }
-  .resultsList li.list-item .movieRating {
+  .resultsList li.list-item .resultObjectRating {
     font-size: 75%; }
   .resultsList li.list-item .synopsis {
     display: block;
