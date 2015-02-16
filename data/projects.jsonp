@@ -15,11 +15,11 @@
     },
 "synopsis":"",
 "posters":{
-    "thumbnail":"http://d3biamo577v4eu.cloudfront.net/static/images/redesign/poster_default_thumb.gif"
+    "thumbnail":"/images/githubLogo.png"
     },
 "links":{
-"github":"http://github.com/kodysmith/searchProject",
-"url":"https://www.github.com/kodysmith/"
+"github":"http://github.com/smithrk",
+"url":"https://www.github.com/smithrk/"
 }},
 {
 "title":"LinkedIn",
@@ -36,7 +36,7 @@
     },
 "synopsis":"",
 "posters":{
-    "thumbnail":"http://d3biamo577v4eu.cloudfront.net/static/images/redesign/poster_default_thumb.gif"
+    "thumbnail":"/images/linkedinLogo.jpg"
     },
 "links":{
 "github":"http://github.com/kodysmith/searchProject",
@@ -57,14 +57,14 @@
     },
 "synopsis":"",
 "posters":{
-    "thumbnail":"http://d3biamo577v4eu.cloudfront.net/static/images/redesign/poster_default_thumb.gif"
+    "thumbnail":"/images/matrixLogo.png"
     },
 "links":{
-"github":"http://github.com/kodysmith/matrixDropAnimation",
-"url":"/app-matrixAnimation/"
+"github":"http://github.com/smithrk/matrixDropAnimation",
+"url":"/app-matrix"
 }},
 {
-"title":"Lydia Site",
+"title":"Auto Chat Application",
 "year":2014,
 "mpaa_rating":"Unrated",
 "runtime":"",
@@ -78,31 +78,10 @@
     },
 "synopsis":"",
 "posters":{
-    "thumbnail":"http://d3biamo577v4eu.cloudfront.net/static/images/redesign/poster_default_thumb.gif"
+    "thumbnail":"/images/chat.jpg"
     },
 "links":{
-"github":"http://github.com/kodysmith/lydia",
-"url":"/app-lydia/www/"
-}},
-{
-"title":"Movie Search",
-"year":2014,
-"mpaa_rating":"Unrated",
-"runtime":"",
-"release_dates":{
-    "written":"2014-11-20"
-    },
-"ratings":{
-    "critics_score":-1,
-    "audience_rating":"Spilled",
-    "audience_score":50
-    },
-"synopsis":"",
-"posters":{
-    "thumbnail":"http://d3biamo577v4eu.cloudfront.net/static/images/redesign/poster_default_thumb.gif"
-    },
-"links":{
-"github":"http://github.com/kodysmith/searchProject",
-"url":"/app-movieSearch/"
+"github":"http://github.com/smithrk/app_chat",
+"url":"/app-chat"
 }}
 ]}
