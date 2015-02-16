@@ -1,0 +1,111 @@
+.resultObjectTitle{
+  color:$bestBuyBlue;
+  
+}
+.resultObjectYear{
+  color:cornflowerblue;
+}
+.resultObjectRating {
+  font-weight: bold;
+}
+
+.resultsGrid.grid .grid-item {
+  @media(min-width:700px){
+  float: left;
+  display: block;
+  min-width: 250px;
+  margin: 14px;
+  padding: 10px;
+  min-height: 170px;
+  text-align: left;
+  width: 29%;
+  background-color: $offWhite;
+  color: $bestBuyBlue;
+  }
+  @media(max-width:700px){
+  float: left;
+  display: block;
+  min-width: 250px;
+  margin: 14px auto 14px 6px;
+  padding: 10px;
+  min-height: 170px;
+  text-align: left;
+  width: 92%;
+  background-color: $offWhite;
+  color: $bestBuyBlue;
+  }
+  .resultObjectTitle{
+    display:block;
+    font-size:125%;
+    font-weight:bold;
+  }
+  .resultObjectYear{
+    display:block;
+    font-size:100%;
+  }
+  .resultObjectImage {
+    display: inline-block;
+    float: left;
+    margin-right: 15px;
+    img {
+      height: 150px;
+    }
+  }
+  .resultObjectRating {
+    display:block;
+    color: darkred;
+  }
+  .resultObjectViewerRating {
+    display: block;
+    width: 280px;
+  }
+  .synopsis {
+    display: block;
+    font-size:90%;
+    color: $nearlyBlackGray;
+    padding-left:20px;
+  }
+  .infoTitle{
+    display:inline-block;
+  }
+}
+
+.resultsList li{
+ &:hover{
+    background-color: $offWhite;
+ }
+ &.list-item {
+    float: left;
+    display: block;
+    margin: 5px;
+    text-align: left;
+    width: 90%;
+    color: $bestBuyBlue;
+    
+    .resultObjectTitle{
+      font-size:125%;
+      font-weight:bold;
+    }
+    .resultObjectYear{
+      font-size:75%;
+      color:cornflowerblue;
+    }
+    .resultObjectImage {
+      display: inline-block;
+      float: left;
+      margin-right: 15px;
+      img {
+        height: 80px;
+      }
+    }
+    .resultObjectRating {
+      font-size:75%;
+    }
+    .synopsis {
+      display: block;
+      font-size:90%;
+      color: darkgray;
+      padding-left:20px;
+    }
+  }
+}
