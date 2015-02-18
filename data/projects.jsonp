@@ -3,7 +3,7 @@
 {
 "title":"GitHub",
 "year":2014,
-"mpaa_rating":"Unrated",
+"contributor":"Ryan Smith",
 "runtime":"",
 "release_dates":{
     "written":"2014-11-20"
@@ -24,7 +24,7 @@
 {
 "title":"LinkedIn",
 "year":2014,
-"mpaa_rating":"Unrated",
+"contributor":"N/A",
 "runtime":"",
 "release_dates":{
     "written":"2014-11-20"
@@ -34,7 +34,7 @@
     "audience_rating":"Spilled",
     "audience_score":50
     },
-"synopsis":"",
+"":"",
 "posters":{
     "thumbnail":"/images/linkedinLogo.jpg"
     },
@@ -45,7 +45,7 @@
 {
 "title":"Matrix Animation",
 "year":2014,
-"mpaa_rating":"Unrated",
+"contributor":"Ryan Smith",
 "runtime":"",
 "release_dates":{
     "written":"2014-11-20"
@@ -55,7 +55,7 @@
     "audience_rating":"Spilled",
     "audience_score":50
     },
-"synopsis":"",
+"description":"a functioning matrix style background generating random, characters, locations and speeds.",
 "posters":{
     "thumbnail":"/images/matrixLogo.png"
     },
@@ -66,7 +66,7 @@
 {
 "title":"Auto Chat Application",
 "year":2014,
-"mpaa_rating":"Unrated",
+"contributor":"Ryan Smith",
 "runtime":"",
 "release_dates":{
     "written":"2014-11-20"
@@ -76,7 +76,7 @@
     "audience_rating":"Spilled",
     "audience_score":50
     },
-"synopsis":"",
+"description":"this is a basic ai chat room developed for demonstration purposes.",
 "posters":{
     "thumbnail":"/images/chat.jpg"
     },

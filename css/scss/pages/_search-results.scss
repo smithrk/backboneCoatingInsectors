@@ -3,7 +3,7 @@
   
 }
 .resultObjectYear{
-  color:cornflowerblue;
+  color:$jetBlack;
 }
 .resultObjectRating {
   font-weight: bold;
@@ -19,8 +19,8 @@
   min-height: 170px;
   text-align: left;
   width: 29%;
-  background-color: $offWhite;
-  color: $bestBuyBlue;
+  background-color: $darkGrey;
+  color: $jetBlack;
   }
   @media(max-width:700px){
   float: left;
@@ -51,17 +51,18 @@
       height: 150px;
     }
   }
-  .resultObjectRating {
+  .resultObjectContributor {
     display:block;
-    color: darkred;
+    color: $jetBlack;
   }
   .resultObjectViewerRating {
     display: block;
     width: 280px;
   }
-  .synopsis {
+  .description {
     display: block;
     font-size:90%;
+    padding-top: 5px;
     color: $nearlyBlackGray;
     padding-left:20px;
   }
@@ -88,7 +89,7 @@
     }
     .resultObjectYear{
       font-size:75%;
-      color:cornflowerblue;
+      color:$jetBlack;
     }
     .resultObjectImage {
       display: inline-block;

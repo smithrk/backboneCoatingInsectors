@@ -4,10 +4,9 @@
   background-image: url('/images/header_background.png');
   background-repeat: repeat-x;
   background-size: 10px 100%;
-  position: absolute;
   left: 0px;
   top: 0px;
-    background-color: lightgrey;
+  background-color: lightgrey;
 
   @media(min-width:700px){
     @include centerLeftAlign();
@@ -22,10 +21,10 @@
   h1{
     font-weight:bolder;
     font-size:2em;
-    color:$bestBuyBlue;
+    color:$monitiseOrange;
   }
   .subtitle{
-    color:cornflowerblue;
+    color:$subtitleOrange;
     font-style:italic;
   }
   
