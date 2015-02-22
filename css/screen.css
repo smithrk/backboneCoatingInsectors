@@ -27,7 +27,9 @@ body {
       position: absolute; }
       #header .container .centered-container {
         left: -25%;
-        position: absolute; } }
+        position: absolute; }
+    #header .subtitle {
+      font-size: 13px; } }
   @media (max-width: 700px) {
     #header .container {
       left: 19%;
@@ -35,15 +37,21 @@ body {
       position: absolute; }
       #header .container .centered-container {
         left: 5%;
-        position: absolute; } }
+        position: absolute; }
+    #header .subtitle {
+      font-size: 13px;
+      position: absolute; } }
   #header .container {
-    line-height: 0em;
-    padding-top: 20px; }
+    line-height: 1em; }
   #header h1 {
+    padding-top: 20px;
+    padding-bottom: 0px;
+    margin: 0px;
     font-weight: bolder;
     font-size: 2em;
     color: #fab83a; }
   #header .subtitle {
+    padding-top: 10px;
     color: #f5ac26;
     font-style: italic; }
 
