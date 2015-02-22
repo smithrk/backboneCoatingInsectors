@@ -17,10 +17,12 @@
   margin: 14px;
   padding: 10px;
   min-height: 170px;
+  border-radius: 10px;
   text-align: left;
   width: 29%;
   background-color: $darkGrey;
   color: $jetBlack;
+  box-shadow: 10px 10px 5px #888888;
   }
   @media(max-width:700px){
   float: left;
@@ -29,10 +31,12 @@
   margin: 14px auto 14px 6px;
   padding: 10px;
   min-height: 170px;
+  border-radius: 10px;
   text-align: left;
   width: 92%;
   background-color: $darkGrey;
   color: $bestBuyBlue;
+  box-shadow: 10px 10px 5px #888888;
   }
   .resultObjectTitle{
     display:block;
