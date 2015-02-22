@@ -10,9 +10,7 @@
 
   @media(min-width:700px){
     @include centerLeftAlign();
-    .subtitle{
-      font-size: 13px;
-    }
+    
   }
   @media(max-width:700px){
     @include mobileCenterLeftAlign();
