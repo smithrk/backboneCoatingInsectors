@@ -104,5 +104,26 @@
 "links":{
 "github":"http://github.com/smithrk",
 "url":"http://www.coatinginspectors.com"
+}},
+{
+"title":"Lydia Nelsen Profile",
+"year":2014,
+"contributor":"Ryan Smith",
+"runtime":"",
+"release_dates":{
+    "written":"2014-11-20"
+    },
+"ratings":{
+    "critics_score":-1,
+    "audience_rating":"Spilled",
+    "audience_score":50
+    },
+"description":"Built this static site for K5studios from their design",
+"posters":{
+    "thumbnail":"/images/contactUsLydiaImage.png"
+    },
+"links":{
+"github":"http://github.com/smithrk",
+"url":"http://lydia.smithdev.us"
 }}
 ]}
