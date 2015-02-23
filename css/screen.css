@@ -198,6 +198,7 @@ body {
     min-height: 170px;
     border-radius: 10px;
     text-align: left;
+    min-width: 316px;
     width: 29%;
     background-color: darkgrey;
     color: #000;
