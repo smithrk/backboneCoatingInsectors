@@ -15,7 +15,7 @@ define([
 ], function($, _, Backbone, ProjectModel) {
   	var ProjectCollection = Backbone.Collection.extend({
 				model: ProjectModel,
-				url: '../data/projects.jsonp',
+				url: '../../data/projects.jsonp',
 				//url: 'http://www.omdbapi.com/?r=JSON&',
 				//url: 'http://www.imdb.com/xml/find?json=1&nr=1&tt=on&q=',
 				//url: 'http://api.rottentomatoes.com/api/public/v1.0/movies.json?apikey=7r8zawrjdmp8cp89rnrbh6dg&q=',
