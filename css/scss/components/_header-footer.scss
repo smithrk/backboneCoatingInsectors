@@ -19,6 +19,17 @@
       position:absolute;
     }
   }
+  .headerLogo{
+    height: 67px;
+    width:67px;
+    padding-top:8px;
+    display:inline-block;
+  }
+  .title-container{
+    display:inline-block;
+    position:relative;
+    top: -14px;
+  }
   .container{
     line-height: 1em;
   
@@ -33,8 +44,10 @@
   }
   .subtitle{
     padding-top: 10px;
+    padding-left: 67px;
     color:$subtitleOrange;
     font-style:italic;
+    font-size: 1em;
   }
   
 }

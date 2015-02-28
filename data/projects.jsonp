@@ -1,7 +1,7 @@
 {
 "movies":[
 {
-"title":"GitHub",
+"title":"About Us",
 "year":2014,
 "contributor":"Ryan Smith",
 "runtime":"",
@@ -13,16 +13,16 @@
     "audience_rating":"Spilled",
     "audience_score":50
     },
-"synopsis":"",
+"description":"CoatingInspectors.com provides third party independent inspections and a variety of professional services related to coatings, linings, secondary containment, fireproofing and floorings in all of the industries we serve. ",
 "posters":{
-    "thumbnail":"/images/githubLogo.png"
+    "thumbnail":"/images/pages/aboutUs.jpg"
     },
 "links":{
 "github":"http://github.com/smithrk",
 "url":"https://www.github.com/smithrk/"
 }},
 {
-"title":"LinkedIn",
+"title":"Inspection Services",
 "year":2014,
 "contributor":"N/A",
 "runtime":"",
@@ -34,16 +34,16 @@
     "audience_rating":"Spilled",
     "audience_score":50
     },
-"":"",
+"description":"Coating Inspectors offers both full time and hold point coating inspection services to a wide variety of clients in various industries.",
 "posters":{
-    "thumbnail":"/images/linkedinLogo.jpg"
+    "thumbnail":"/images/pages/inspectionServices.jpg"
     },
 "links":{
 "github":"http://github.com/kodysmith/searchProject",
 "url":"https://www.linkedin.com/profile/view?id=222171209&trk=nav_responsive_tab_profile"
 }},
 {
-"title":"Matrix Animation",
+"title":"Consultation",
 "year":2014,
 "contributor":"Ryan Smith",
 "runtime":"",
@@ -55,16 +55,16 @@
     "audience_rating":"Spilled",
     "audience_score":50
     },
-"description":"a functioning matrix style background generating random, characters, locations and speeds.",
+"description":"At Coating Inspectors, we put first things first, and effectively listening to our client’s needs and requirements is where we begin. Each of our clients receive one on one consultation from one of our senior staff members in an effort to gain a broad and in depth understanding of what they are attempting to accomplish.",
 "posters":{
-    "thumbnail":"/images/matrixLogo.png"
+    "thumbnail":"/images/pages/consult.jpg"
     },
 "links":{
 "github":"http://github.com/smithrk/matrixDropAnimation",
 "url":"/app-matrix"
 }},
 {
-"title":"Auto Chat Application",
+"title":"Failure and Testing Analysis",
 "year":2014,
 "contributor":"Ryan Smith",
 "runtime":"",
@@ -76,9 +76,9 @@
     "audience_rating":"Spilled",
     "audience_score":50
     },
-"description":"this is a basic ai chat room developed for demonstration purposes.",
+"description":"Failure is the last word or clients like to hear, whether they be owner, engineer or contractor, but from time to time, failure does happen. Failure needs to be a teacher, and we must learn from our mistakes.",
 "posters":{
-    "thumbnail":"/images/chat.jpg"
+    "thumbnail":"/images/pages/failureAnalysis.jpg"
     },
 "links":{
 "github":"http://github.com/smithrk/app_chat",
