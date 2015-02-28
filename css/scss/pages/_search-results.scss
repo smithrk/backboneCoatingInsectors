@@ -1,9 +1,9 @@
 .resultObjectTitle{
-  color:$bestBuyBlue;
+  color:green;
   
 }
 .resultObjectYear{
-  color:$jetBlack;
+  color:$limeGreen;
 }
 .resultObjectRating {
   font-weight: bold;
@@ -21,9 +21,8 @@
   text-align: left;
   min-width: 316px;
   width: 29%;
-  background-color: $darkGrey;
-  color: $jetBlack;
-  box-shadow: 10px 10px 5px #888888;
+  background-color: $snowWhite;
+  box-shadow: 10px 10px 5px $jetBlack;
   }
   @media(max-width:700px){
   float: left;
@@ -35,9 +34,9 @@
   border-radius: 10px;
   text-align: left;
   width: 92%;
-  background-color: $darkGrey;
+  background-color: $snowWhite;
   color: $bestBuyBlue;
-  box-shadow: 10px 10px 5px #888888;
+  box-shadow: 10px 10px 5px $jetBlack;
   }
   .resultObjectTitle{
     display:block;
@@ -58,7 +57,7 @@
   }
   .resultObjectContributor {
     display:block;
-    color: $jetBlack;
+    color: $limeGreen;
   }
   .resultObjectViewerRating {
     display: block;
@@ -68,7 +67,7 @@
     display: block;
     font-size:90%;
     padding-top: 5px;
-    color: $nearlyBlackGray;
+    color: $limeGreen;
     padding-left:20px;
   }
   .infoTitle{

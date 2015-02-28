@@ -85,7 +85,7 @@
 "url":"/app-chat"
 }},
 {
-"title":"Coating Inspectors.com",
+"title":"FAQ",
 "year":2013,
 "contributor":"Ryan Smith",
 "runtime":"",
@@ -97,16 +97,16 @@
     "audience_rating":"Spilled",
     "audience_score":50
     },
-"description":"maintained this site from backend and made modifications as requested.",
+"description":"Q: What benefits can I expect from having a CIN NACE Certified Coating Inspector work on our projects?",
 "posters":{
-    "thumbnail":"/images/githubLogo.png"
+    "thumbnail":"/images/pages/questions.jpg"
     },
 "links":{
 "github":"http://github.com/smithrk",
 "url":"http://www.coatinginspectors.com"
 }},
 {
-"title":"Lydia Nelsen Profile",
+"title":"HSE Services",
 "year":2014,
 "contributor":"Ryan Smith",
 "runtime":"",
@@ -118,9 +118,114 @@
     "audience_rating":"Spilled",
     "audience_score":50
     },
-"description":"Built this static site for K5studios from their design",
+"description":"As regulatory compliance for projects has increased, we have expanded our roles to include consultation and inspection compliance of all the environment, health, safety and hygiene aspects of a coating removal and replacement project.",
 "posters":{
-    "thumbnail":"/images/contactUsLydiaImage.png"
+    "thumbnail":"/images/pages/hse.jpg"
+    },
+"links":{
+"github":"http://github.com/smithrk",
+"url":"http://lydia.smithdev.us"
+}},
+{
+"title":"Industry Markets",
+"year":2014,
+"contributor":"Ryan Smith",
+"runtime":"",
+"release_dates":{
+    "written":"2014-11-20"
+    },
+"ratings":{
+    "critics_score":-1,
+    "audience_rating":"Spilled",
+    "audience_score":50
+    },
+"description":"We proudly serve the entire worldwide coating community, both public and private, operating in a wide variety of capacities including:",
+"posters":{
+    "thumbnail":"/images/pages/industryMarkets.jpg"
+    },
+"links":{
+"github":"http://github.com/smithrk",
+"url":"http://lydia.smithdev.us"
+}},
+{
+"title":"Litigation Support and Expert Witness",
+"year":2014,
+"contributor":"Ryan Smith",
+"runtime":"",
+"release_dates":{
+    "written":"2014-11-20"
+    },
+"ratings":{
+    "critics_score":-1,
+    "audience_rating":"Spilled",
+    "audience_score":50
+    },
+"description":"While litigation is an area our clients prefer to avoid, it is nonetheless omnipresent in the professional coating industry.",
+"posters":{
+    "thumbnail":"/images/pages/litigation.jpg"
+    },
+"links":{
+"github":"http://github.com/smithrk",
+"url":"http://lydia.smithdev.us"
+}},
+{
+"title":"NACE Member Code of Ethics",
+"year":2014,
+"contributor":"Ryan Smith",
+"runtime":"",
+"release_dates":{
+    "written":"2014-11-20"
+    },
+"ratings":{
+    "critics_score":-1,
+    "audience_rating":"Spilled",
+    "audience_score":50
+    },
+"description":"Members uphold and advance the integrity, honor, and dignity of the members' profession by using their knowledge and skill for the enhancement of human welfare, being honest and impartial, and serving with fidelity the public, their employers, and clients, and striving to increase the competence and prestige of the corrosion engineering profession.",
+"posters":{
+    "thumbnail":"/images/pages/nace.jpg"
+    },
+"links":{
+"github":"http://github.com/smithrk",
+"url":"http://lydia.smithdev.us"
+}},
+{
+"title":"Project Design",
+"year":2014,
+"contributor":"Ryan Smith",
+"runtime":"",
+"release_dates":{
+    "written":"2014-11-20"
+    },
+"ratings":{
+    "critics_score":-1,
+    "audience_rating":"Spilled",
+    "audience_score":50
+    },
+"description":"There is no doubt that a well written and comprehensive project specification is the preamble to a successful final project completion. Not only must it be clear and concise, but it must also be fully understood by all so there are limited disagreements, misinterpretations and disruptions to the overall effective and efficient project completion.",
+"posters":{
+    "thumbnail":"/images/pages/projectDesign.jpg"
+    },
+"links":{
+"github":"http://github.com/smithrk",
+"url":"http://lydia.smithdev.us"
+}},
+{
+"title":"Inspector Qualifications",
+"year":2014,
+"contributor":"Ryan Smith",
+"runtime":"",
+"release_dates":{
+    "written":"2014-11-20"
+    },
+"ratings":{
+    "critics_score":-1,
+    "audience_rating":"Spilled",
+    "audience_score":50
+    },
+"description":"Coating Inspectors staff members have a wide range of credentials and qualifications.",
+"posters":{
+    "thumbnail":"/images/pages/qualifications.png"
     },
 "links":{
 "github":"http://github.com/smithrk",
