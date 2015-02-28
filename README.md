@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 searchProject
 =============
 
@@ -34,3 +35,6 @@ Provide List and Grid view options to the user (maybe add on two different route
 Use Google / Bing Search API (OR)
 
 Search a movie database and display the results
+=======
+# backboneCoatingInsectors
+>>>>>>> 23002b40aba4768d9169bdc4277441ef104db634
