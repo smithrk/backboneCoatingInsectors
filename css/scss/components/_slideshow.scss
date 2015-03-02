@@ -1,0 +1,48 @@
+#slideshow {
+
+  width: 95%;
+
+  max-height: 500px;
+
+  height: auto;
+
+  border-top: none;
+
+  position: relative;
+
+  overflow: hidden;
+
+  padding-left: 2.5%;
+  @media(max-width:700px){
+  	display: none;
+  }
+}
+
+ 
+
+.slides {
+
+  overflow: hidden;
+  padding: 0px;
+
+}
+
+ 
+
+.slide {
+	img{
+		width:100%;
+	}
+
+  width: 100%;
+
+  position: relative;
+
+  list-style-type: none;
+
+  //display: none; /** slides are hidden by default **/
+
+}
+
+ 
+

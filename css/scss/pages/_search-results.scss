@@ -9,6 +9,10 @@
   font-weight: bold;
 }
 
+.resultsGrid.grid{
+  width:95%;
+  padding-left:4%;
+}
 .resultsGrid.grid .grid-item {
   @media(min-width:700px){
   float: left;

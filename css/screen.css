@@ -205,6 +205,10 @@ body {
 .resultObjectRating {
   font-weight: bold; }
 
+.resultsGrid.grid {
+  width: 95%;
+  padding-left: 4%; }
+
 @media (min-width: 700px) {
   .resultsGrid.grid .grid-item {
     float: left;
@@ -318,5 +322,28 @@ body {
   float: left;
   padding-top: 20px;
   padding-bottom: 50px; }
+
+#slideshow {
+  width: 95%;
+  max-height: 500px;
+  height: auto;
+  border-top: none;
+  position: relative;
+  overflow: hidden;
+  padding-left: 2.5%; }
+  @media (max-width: 700px) {
+    #slideshow {
+      display: none; } }
+
+.slides {
+  overflow: hidden;
+  padding: 0px; }
+
+.slide {
+  width: 100%;
+  position: relative;
+  list-style-type: none; }
+  .slide img {
+    width: 100%; }
 
 /*# sourceMappingURL=screen.css.map */
