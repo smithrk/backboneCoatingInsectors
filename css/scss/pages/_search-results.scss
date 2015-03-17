@@ -1,5 +1,6 @@
+
 .resultObjectTitle{
-  color:green;
+  color: $bestBuyBlue;
   
 }
 .resultObjectYear{
@@ -10,23 +11,26 @@
 }
 
 .resultsGrid.grid{
-  width:95%;
+
   padding-left:4%;
 }
 .resultsGrid.grid .grid-item {
   @media(min-width:700px){
   float: left;
   display: block;
-  min-width: 250px;
+  //min-width: 250px;
   margin: 14px;
   padding: 10px;
   min-height: 170px;
+  //max-height: 200px;
   border-radius: 10px;
   text-align: left;
   min-width: 316px;
-  width: 29%;
+  width: 44%;
+  height: 20%;
   background-color: $snowWhite;
   box-shadow: 10px 10px 5px $jetBlack;
+  overflow: hidden;
   }
   @media(max-width:700px){
   float: left;
@@ -71,8 +75,9 @@
     display: block;
     font-size:90%;
     padding-top: 5px;
-    color: $limeGreen;
+    color: $jetBlack;
     padding-left:20px;
+    font-weight: bold;
   }
   .infoTitle{
     display:inline-block;

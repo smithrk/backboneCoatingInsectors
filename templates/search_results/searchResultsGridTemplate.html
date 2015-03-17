@@ -8,17 +8,11 @@
        		    <span class="resultObjectTitle">
        		       <%= result.get("title") %> 
        		    </span>
-       		    <span class="resultObjectYear">
-                   <%= result.get("year") %>
+              <% if(result.get("description") !=""){ %>
+              <span class="description">
+                <%= result.get("description") %> 
               </span>
-       		    <span class="resultObjectContributor">
-                   <%= result.get("contributor") %> 
-              </span>
-                <% if(result.get("description") !=""){ %>
-                <span class="description">
-                   <%= result.get("description") %> 
-                </span>
-                <% } %>
+              <% } %>
     	    </span>
     	</a>
   	<% }); %>
