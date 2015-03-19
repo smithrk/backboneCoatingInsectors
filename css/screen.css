@@ -214,12 +214,11 @@ body {
     display: block;
     margin: 14px;
     padding: 10px;
-    min-height: 170px;
     border-radius: 10px;
     text-align: left;
-    min-width: 316px;
+    min-width: 402px;
     width: 44%;
-    height: 20%;
+    height: 190px;
     background-color: #ffffff;
     box-shadow: 10px 10px 5px #000;
     overflow: hidden; } }
