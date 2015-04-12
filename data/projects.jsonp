@@ -1,6 +1,7 @@
 {
 "movies":[
 {
+"id":"aboutUS",
 "title":"About Us",
 "year":2014,
 "contributor":"Ryan Smith",
@@ -22,6 +23,7 @@
 "url":"https://www.github.com/smithrk/"
 }},
 {
+"id":"inspectionServices",
 "title":"Inspection Services",
 "year":2014,
 "contributor":"N/A",
@@ -43,6 +45,7 @@
 "url":"https://www.linkedin.com/profile/view?id=222171209&trk=nav_responsive_tab_profile"
 }},
 {
+"id":"consultation",
 "title":"Consultation",
 "year":2014,
 "contributor":"Ryan Smith",
@@ -64,6 +67,7 @@
 "url":"/app-matrix"
 }},
 {
+"id":"failure",
 "title":"Failure and Testing Analysis",
 "year":2014,
 "contributor":"Ryan Smith",
@@ -85,6 +89,7 @@
 "url":"/app-chat"
 }},
 {
+"id":"faq",
 "title":"FAQ",
 "year":2013,
 "contributor":"Ryan Smith",
@@ -106,6 +111,7 @@
 "url":"http://www.coatinginspectors.com"
 }},
 {
+"id":"hseServices",
 "title":"HSE Services",
 "year":2014,
 "contributor":"Ryan Smith",
@@ -127,6 +133,7 @@
 "url":"http://lydia.smithdev.us"
 }},
 {
+"id":"industryMarkets",
 "title":"Industry Markets",
 "year":2014,
 "contributor":"Ryan Smith",
@@ -148,6 +155,7 @@
 "url":"http://lydia.smithdev.us"
 }},
 {
+"id":"litigationSupport",
 "title":"Litigation Support and Expert Witness",
 "year":2014,
 "contributor":"Ryan Smith",
@@ -169,6 +177,7 @@
 "url":"http://lydia.smithdev.us"
 }},
 {
+"id":"ethics",
 "title":"NACE Member Code of Ethics",
 "year":2014,
 "contributor":"Ryan Smith",
@@ -190,6 +199,7 @@
 "url":"http://lydia.smithdev.us"
 }},
 {
+"id":"projectDesign",
 "title":"Project Design",
 "year":2014,
 "contributor":"Ryan Smith",
@@ -211,6 +221,7 @@
 "url":"http://lydia.smithdev.us"
 }},
 {
+"id":"inspectorQualifications",
 "title":"Inspector Qualifications",
 "year":2014,
 "contributor":"Ryan Smith",
@@ -225,7 +236,29 @@
     },
 "description":"Coating Inspectors staff members have a wide range of credentials and qualifications.",
 "posters":{
-    "thumbnail":"/images/pages/qualifications.png"
+    "thumbnail":"/images/pages/qualifications.jpg"
+    },
+"links":{
+"github":"http://github.com/smithrk",
+"url":"http://lydia.smithdev.us"
+}},
+{
+"id":"contactUs",
+"title":"Contact Us",
+"year":2014,
+"contributor":"Ryan Smith",
+"runtime":"",
+"release_dates":{
+    "written":"2014-11-20"
+    },
+"ratings":{
+    "critics_score":-1,
+    "audience_rating":"Spilled",
+    "audience_score":50
+    },
+"description":"Mother fuckers just give us a call or fill out the form.",
+"posters":{
+    "thumbnail":"/images/pages/contact.png"
     },
 "links":{
 "github":"http://github.com/smithrk",

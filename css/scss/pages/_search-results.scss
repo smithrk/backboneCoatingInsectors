@@ -34,7 +34,7 @@
   display: block;
   min-width: 250px;
   margin: 14px auto 14px auto;
-  padding: 10px;
+  //padding: 10px;
   border-radius: 10px;
   text-align: left;
   width: 92%;
@@ -42,6 +42,7 @@
   background-color: $snowWhite;
   color: $bestBuyBlue;
   box-shadow: 10px 10px 5px $jetBlack;
+  overflow: hidden;
   }
   .resultObjectTitle{
     display:block;
@@ -54,10 +55,19 @@
   }
   .resultObjectImage {
     display: inline-block;
-    float: left;
-    margin-right: 15px;
-    img {
-      height: 150px;
+    @media(min-width:700px){
+      float: left;
+      margin-right: 15px;
+      img {
+        height: 150px;
+      }
+    }
+    @media(max-width:700px){
+      margin: 0px;
+      width: 100%;
+      img {
+        width: 100%;
+      }
     }
   }
   .resultObjectContributor {

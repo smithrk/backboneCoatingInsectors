@@ -1,5 +1,36 @@
 <div id="sidebar">
 
- <p> this is my sidebar </p>
+ <p> Recieve a Quote </p>
+
+ <form action=url("/services/mail.php") method="post" enctype="text/plain">
+	Name:<br>
+	<input type="text" name="customerName">
+	<br>
+	Company:<br>
+	<input type="text" name="companyName">
+	<br>
+	Phone:<br>
+	<input type="text" name="phoneNumber">
+	<br>
+	Email:<br>
+	<input type="text" name="emailAddress">
+	<br>
+	Project Description:<br>
+	<input type="textArea" name="projectDescription" cols="40" rows="10">
+	<br>
+	How did you hear about us?<br>
+	<select name="advertising">
+		<option value="google">Google</option>
+		<option value="bing">Bing</option>
+		<option value="msn">MSN</option>
+		<option value="yahoo">Yahoo</option>
+		<option value="yellowPages">Yellow Pages</option>
+		<option value="referal">Referal</option>
+	</select>
+	<br>
+	<br>
+	<input type="submit" value="Submit">
+</form>
 
 </div>
+

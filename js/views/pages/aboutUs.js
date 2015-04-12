@@ -11,8 +11,7 @@ define([
   'text!templates/home/homeTemplate.html',
   'text!templates/search_forms/movieSearchFormTemplate.html',
   'text!templates/components/slideshowTemplate.html',
-  'text!templates/components/sidebarTemplate.html',
- 
+  'text!templates/components/sidebarTemplate.html'
 
 ], function($, _, Backbone, ProjectGridView, homeTemplate, movieSearchFormTemplate, slideshow, sidebar){
 
