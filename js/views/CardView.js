@@ -15,6 +15,7 @@ define([
     el: $('.resultsGrid'),
     events: {
         'click a': 'clicked',
+        'click .close': 'closeCard'
     },
     initalize: function(){
       this.el = $('#'+this.model.get('classID'));
@@ -25,6 +26,9 @@ define([
       $('.clicked').removeClass('clicked');
       $(event.currentTarget).addClass('clicked');
       
+    },
+    closeCard: function(event) {
+      $('.clicked').removeClass('clicked');
     },
     contentHolder: function(){
       return this.compileTemplate();
