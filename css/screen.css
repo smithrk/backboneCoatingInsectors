@@ -448,7 +448,9 @@ body {
     margin-left: auto;
     margin-right: auto; }
   .resultsGrid .clicked .grid-item .resultObjectImage .centeredImg {
-    height: 370px; }
+    height: 370px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #000; }
   .resultsGrid .clicked .grid-item .description.expandedDescription {
     /*text-indent:50px;*/
     font-size: 1.3em;
