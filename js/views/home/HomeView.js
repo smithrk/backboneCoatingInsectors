@@ -24,7 +24,7 @@ define([
         // display the search form on the home screen
         // demonstrating how you can pass element selector or other values to models to manipulate their
         // result destination 
-        var projectGridView = new ProjectGridView({el:$('#searchFormHolder')});
+        var projectGridView = new ProjectGridView();
         projectGridView.render();
     }
   });
