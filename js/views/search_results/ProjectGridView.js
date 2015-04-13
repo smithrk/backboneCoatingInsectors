@@ -10,13 +10,20 @@ define([
   'backbone',
   'models/ProjectModel',
   'collections/ProjectCollection',
-  'text!templates/search_results/searchResultsGridTemplate.html'
-], function($, _, Backbone, ProjectModel, ProjectCollection, searchResultsGridTemplate){
+  'text!templates/search_results/searchResultsGridTemplate.html',
+  'views/CardView'
+], function($, _, Backbone, ProjectModel, ProjectCollection, searchResultsGridTemplate, CardView){
 
   var ProjectGridView = Backbone.View.extend({
     el: $("#searchResults"),
     model: ProjectModel,
-    render: function(searchString){
+    subViews: {    },
+    initialize: function(){
+      //var compiledTemplate = _.template( searchResultsGridTemplate, data );
+      var compiledTemplate = _.template('<div class="resultsGrid grid"></div>')
+      // output the compiled template to the defined element
+      this.$el.html(compiledTemplate());
+
       // display Something while searching is in progress so the user is aware of action
       //this.$el.html('<div class="searchLoader">Searching...</div>');
       
@@ -27,20 +34,35 @@ define([
       projects.fetch({
         reset: true
       });
-      
+      var self = this;
       // clear the existing results for a new search, and then display the results using the movie model
       projects.bind('reset', function () { 
-        projectData = projects.models; 
+        var projectData = projects.models; 
         var data = {
                       results: projects.models,
                       _: _ 
                     };
+            var i = 0;
+          _.each(data.results, function(result){
+            var viewProp = {};
+            viewProp.el = $('.resultsGrid');
+            result.classID = i;
+            result.set('classID',i);
+            viewProp.model = new Backbone.Model(result.attributes);
+
+            self.subViews[i] = new CardView(viewProp);
+            $(self.$el).append(self.subViews[i].contentHolder());
+           
+            i++;
+          });
         // compile the view using the search results template, and the search result data returned
-        var compiledTemplate = _.template( searchResultsGridTemplate, data );
-        
-        // output the compiled template to the defined element
-        $("#searchResults").html( compiledTemplate ); 
+       
       });
+    },
+    render: function(searchString){
+      
+      $('.resultsGrid').html(this.el);
+      return this;
      
     }
   });
