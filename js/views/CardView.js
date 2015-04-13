@@ -27,10 +27,17 @@ define([
       $(event.currentTarget).addClass('clicked');
       $(event.currentTarget).find('img:first').addClass('centeredImg');
       $(event.currentTarget).find('.resultObjectTitle').addClass('expandedTitle'); 
-      $(event.currentTarget).find('.description').addClass('expandedDescription');
+      debugger
+      $(event.currentTarget).find('.description').addClass('hidden');
+      debugger
+      $(event.currentTarget).find('.extended').removeClass('hidden');
+      //this.model.get('expandedDescription')
     },
     closeCard: function(event) {
-      $('.clicked').removeClass('clicked');
+      var card = $(event.currentTarget).parent();
+      card.find('.resultsGrid .clicked').removeClass('clicked');
+      card.find('.description').removeClass('hidden');
+      card.find('.extendedDescription').addClass('hidden');
     },
     contentHolder: function(){
       return this.compileTemplate();
