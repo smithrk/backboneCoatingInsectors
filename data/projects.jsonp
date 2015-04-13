@@ -15,6 +15,7 @@
     "audience_score":50
     },
 "description":"CoatingInspectors.com provides third party independent inspections and a variety of professional services related to coatings, linings, secondary containment, fireproofing and floorings in all of the industries we serve. ",
+"extendedDescription":"aboutUs.json",
 "posters":{
     "thumbnail":"/images/pages/aboutUs.jpg"
     },
@@ -37,6 +38,7 @@
     "audience_score":50
     },
 "description":"Coating Inspectors offers both full time and hold point coating inspection services to a wide variety of clients in various industries.",
+"extendedDescription":"inspectionServices.json",
 "posters":{
     "thumbnail":"/images/pages/inspectionServices.jpg"
     },
@@ -59,6 +61,7 @@
     "audience_score":50
     },
 "description":"At Coating Inspectors, we put first things first, and effectively listening to our client’s needs and requirements is where we begin. Each of our clients receive one on one consultation from one of our senior staff members in an effort to gain a broad and in depth understanding of what they are attempting to accomplish.",
+"extendedDescription":"consult.json",
 "posters":{
     "thumbnail":"/images/pages/consult.jpg"
     },
@@ -81,6 +84,7 @@
     "audience_score":50
     },
 "description":"Failure is the last word or clients like to hear, whether they be owner, engineer or contractor, but from time to time, failure does happen. Failure needs to be a teacher, and we must learn from our mistakes.",
+"extendedDescription":"failureAnalysis.json",
 "posters":{
     "thumbnail":"/images/pages/failureAnalysis.jpg"
     },
@@ -103,6 +107,7 @@
     "audience_score":50
     },
 "description":"Q: What benefits can I expect from having a CIN NACE Certified Coating Inspector work on our projects?",
+"extendedDescription":"faq.json",
 "posters":{
     "thumbnail":"/images/pages/questions.jpg"
     },
@@ -125,6 +130,7 @@
     "audience_score":50
     },
 "description":"As regulatory compliance for projects has increased, we have expanded our roles to include consultation and inspection compliance of all the environment, health, safety and hygiene aspects of a coating removal and replacement project.",
+"extendedDescription":"hseServices.json",
 "posters":{
     "thumbnail":"/images/pages/hse.jpg"
     },
@@ -147,6 +153,7 @@
     "audience_score":50
     },
 "description":"We proudly serve the entire worldwide coating community, both public and private, operating in a wide variety of capacities including:",
+"extendedDescription":"industryMarkets.json",
 "posters":{
     "thumbnail":"/images/pages/industryMarkets.jpg"
     },
@@ -169,6 +176,7 @@
     "audience_score":50
     },
 "description":"While litigation is an area our clients prefer to avoid, it is nonetheless omnipresent in the professional coating industry.",
+"extendedDescription":"litigationSupport.json",
 "posters":{
     "thumbnail":"/images/pages/litigation.jpg"
     },
@@ -191,6 +199,7 @@
     "audience_score":50
     },
 "description":"Members uphold and advance the integrity, honor, and dignity of the members' profession by using their knowledge and skill for the enhancement of human welfare, being honest and impartial, and serving with fidelity the public, their employers, and clients, and striving to increase the competence and prestige of the corrosion engineering profession.",
+"extendedDescription":"ethics.json",
 "posters":{
     "thumbnail":"/images/pages/nace.jpg"
     },
@@ -213,6 +222,7 @@
     "audience_score":50
     },
 "description":"There is no doubt that a well written and comprehensive project specification is the preamble to a successful final project completion. Not only must it be clear and concise, but it must also be fully understood by all so there are limited disagreements, misinterpretations and disruptions to the overall effective and efficient project completion.",
+"extendedDescription":"projectDesign.json",
 "posters":{
     "thumbnail":"/images/pages/projectDesign.jpg"
     },
@@ -235,6 +245,7 @@
     "audience_score":50
     },
 "description":"Coating Inspectors staff members have a wide range of credentials and qualifications.",
+"extendedDescription":"inspectorQualifications.json",
 "posters":{
     "thumbnail":"/images/pages/qualifications.jpg"
     },
@@ -257,6 +268,7 @@
     "audience_score":50
     },
 "description":"Mother fuckers just give us a call or fill out the form.",
+"extendedDescription":"contactUs.json",
 "posters":{
     "thumbnail":"/images/pages/contact.png"
     },

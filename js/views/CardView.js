@@ -25,7 +25,9 @@ define([
       this.class = "clicked";
       $('.clicked').removeClass('clicked');
       $(event.currentTarget).addClass('clicked');
-      
+      $(event.currentTarget).find('img:first').addClass('centeredImg');
+      $(event.currentTarget).find('.resultObjectTitle').addClass('expandedTitle'); 
+      $(event.currentTarget).find('.description').addClass('expandedDescription');
     },
     closeCard: function(event) {
       $('.clicked').removeClass('clicked');

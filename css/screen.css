@@ -210,6 +210,7 @@ body {
 
 @media (min-width: 700px) {
   .resultsGrid.grid .grid-item {
+    background-image: url("/images/offWhiteBackground.jpg");
     float: left;
     display: block;
     margin: 14px;
@@ -438,15 +439,19 @@ body {
   .menuWrapper .sub-menu li a:hover, .menuWrapper .sub-menu .current-item a {
     background: #3e3436; }
 
-.expandedCard {
+.resultsGrid .clicked .grid-item {
   width: 100%;
-  height: 1200px;
-  background-image: url("/images/header_background.png"); }
-
-.centeredImg {
-  height: 370px; }
-
-.expandedDescription {
-  text-indent: 50px; }
+  height: 1200px; }
+  .resultsGrid .clicked .grid-item .resultObjectTitle.expandedTitle {
+    font-size: 3em;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto; }
+  .resultsGrid .clicked .grid-item .resultObjectImage .centeredImg {
+    height: 370px; }
+  .resultsGrid .clicked .grid-item .description.expandedDescription {
+    /*text-indent:50px;*/
+    font-size: 1.3em;
+    font-weight: normal; }
 
 /*# sourceMappingURL=screen.css.map */
