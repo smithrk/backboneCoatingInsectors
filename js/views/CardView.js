@@ -20,18 +20,23 @@ define([
     initalize: function(){
       this.el = $('#'+this.model.get('classID'));
     },
+    
+
     clicked: function (event) {
       event.preventDefault();
+      $('.resultsGrid .close').toggle('closeHidden');
+      $('.resultsGrid .clicked').removeClass('clicked');
+      $('.resultsGrid.grid .extendedDescription').addClass('hidden');
+      $('.resultsGrid.grid .description').removeClass('hidden');
       this.class = "clicked";
       $('.clicked').removeClass('clicked');
-      $(event.currentTarget).addClass('clicked');
-      $(event.currentTarget).find('img:first').addClass('centeredImg');
-      $(event.currentTarget).find('.resultObjectTitle').addClass('expandedTitle'); 
-      debugger
-      $(event.currentTarget).find('.description').addClass('hidden');
-      debugger
-      $(event.currentTarget).find('.extended').removeClass('hidden');
-      //this.model.get('expandedDescription')
+      $(this.currentTarget).addClass('clicked');
+      $(this.currentTarget).find('img:first').addClass('centeredImg');
+      $(this.currentTarget).find('.resultObjectTitle').addClass('expandedTitle'); 
+      $(this.currentTarget).find('.description').addClass('hidden');
+      $(this.currentTarget).find('.extendedDescription').removeClass('hidden');
+      $(this.currentTarget).find('.closeHidden').addClass('close');
+      $(this.currentTarget).find('.closeHidden .close').removeClass('closeHidden');
     },
     closeCard: function(event) {
       var card = $(event.currentTarget).parent();

@@ -1,4 +1,4 @@
-.resultsGrid .clicked .grid-item{
+.resultsGrid.grid .clicked .grid-item{
 	
 		width:100%;
 		height:1200px;
@@ -9,13 +9,22 @@
 		margin-left:auto;
 		margin-right:auto;
 	}
+	.close{
+		height:2%;
+		width:2%;
+		position:relative;
+		float:right;
+	}
+	.closeButton{
+		height:100%;
+		width:auto;
+	}
 	.resultObjectImage .centeredImg{
 		height: 370px;
 		border-radius: 10px;
 		box-shadow: 10px 10px 5px $jetBlack;
 	}
-	.description.expandedDescription{
-		/*text-indent:50px;*/
+	.extendedDescription{
 		font-size:1.3em;
 		font-weight:normal;
 	}

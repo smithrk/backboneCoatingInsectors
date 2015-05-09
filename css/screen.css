@@ -11,7 +11,7 @@ body {
   display: block; }
 
 .hidden {
-  display: none; }
+  display: none !important; }
 
 .grid {
   display: block; }
@@ -267,7 +267,9 @@ body {
 .resultsGrid.grid .grid-item .resultObjectViewerRating {
   display: block;
   width: 280px; }
-.resultsGrid.grid .grid-item .description {
+.resultsGrid.grid .grid-item .closeHidden {
+  display: none; }
+.resultsGrid.grid .grid-item .description, .resultsGrid.grid .grid-item .extendedDescription {
   display: block;
   font-size: 90%;
   padding-top: 5px;
@@ -414,7 +416,7 @@ body {
     position: relative;
     font-size: 19px; }
   .menuWrapper .menu > ul > li > a {
-    padding: 33px 30px;
+    padding: 30px 20px;
     display: inline-block;
     text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.4); }
   .menuWrapper .menu > ul > li:hover > a, .menuWrapper .menu > ul > .current-item > a {
@@ -442,20 +444,27 @@ body {
   .menuWrapper .sub-menu li a:hover, .menuWrapper .sub-menu .current-item a {
     background: #3e3436; }
 
-.resultsGrid .clicked .grid-item {
+.resultsGrid.grid .clicked .grid-item {
   width: 100%;
   height: 1200px; }
-  .resultsGrid .clicked .grid-item .resultObjectTitle.expandedTitle {
+  .resultsGrid.grid .clicked .grid-item .resultObjectTitle.expandedTitle {
     font-size: 3em;
     display: inline-block;
     margin-left: auto;
     margin-right: auto; }
-  .resultsGrid .clicked .grid-item .resultObjectImage .centeredImg {
+  .resultsGrid.grid .clicked .grid-item .close {
+    height: 2%;
+    width: 2%;
+    position: relative;
+    float: right; }
+  .resultsGrid.grid .clicked .grid-item .closeButton {
+    height: 100%;
+    width: auto; }
+  .resultsGrid.grid .clicked .grid-item .resultObjectImage .centeredImg {
     height: 370px;
     border-radius: 10px;
     box-shadow: 10px 10px 5px #000; }
-  .resultsGrid .clicked .grid-item .description.expandedDescription {
-    /*text-indent:50px;*/
+  .resultsGrid.grid .clicked .grid-item .extendedDescription {
     font-size: 1.3em;
     font-weight: normal; }
 

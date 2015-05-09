@@ -79,7 +79,10 @@
     display: block;
     width: 280px;
   }
-  .description {
+  .closeHidden{
+    display:none;
+  }
+  .description, .extendedDescription{
     display: block;
     font-size:90%;
     padding-top: 5px;
